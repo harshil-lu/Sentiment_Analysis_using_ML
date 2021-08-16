@@ -4,7 +4,7 @@ Reads in language model and stores into a model.
 '''
 import csv
 import re
-import nltk     
+import nltk
 import os
 import pickle
 import random

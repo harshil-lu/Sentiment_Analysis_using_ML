@@ -83,6 +83,18 @@ Steps in Naive Bayes Classifier:
 
 4- Plug our feature vector into the Naive Bayes Classifier.
 
+Maximum Entropy Classifier:
+
+The input to an instance of the Maximum Entropy Evaluator is made up of four parameters:
+
+1- Number of tweets to train on (filesubset)
+
+2- Minimum number of occurences a feature must have appeared to be included as a feature (min_occurences)
+
+3- The number of iterations to run GIS (max_iter)
+
+4- What n-grams to use (grams, a list)
+
 
 Then we utilise the TextBlob class's sentiment.polarity function to get the polarity of a tweet ranging from -1 to 1.
 
